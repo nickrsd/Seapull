@@ -1,789 +1,815 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
+archiveVersion = 1;
+classes = {
+};
+objectVersion = 46;
+objects = {
 
 /* Begin PBXBuildFile section */
-		2EF30B4FB9D90D203421D35D /* Pods_SeapullUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A03720660AC9701CD22759 /* Pods_SeapullUITests.framework */; };
-		325CB6E18048F5C6301A0573 /* Pods_SeapullTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0706B516DEB8CB4BA7302ED /* Pods_SeapullTests.framework */; };
-		B68FAFC91F3FEE50009C6583 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B68FAFC81F3FEE50009C6583 /* main.m */; };
-		B68FAFCC1F3FEE50009C6583 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B68FAFCB1F3FEE50009C6583 /* AppDelegate.m */; };
-		B68FAFD21F3FEE50009C6583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68FAFD01F3FEE50009C6583 /* Main.storyboard */; };
-		B68FAFD41F3FEE50009C6583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68FAFD31F3FEE50009C6583 /* Assets.xcassets */; };
-		B68FAFD71F3FEE50009C6583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68FAFD51F3FEE50009C6583 /* LaunchScreen.storyboard */; };
-		B68FAFE21F3FEE50009C6583 /* SeapullTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68FAFE11F3FEE50009C6583 /* SeapullTests.m */; };
-		B68FAFED1F3FEE50009C6583 /* SeapullUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68FAFEC1F3FEE50009C6583 /* SeapullUITests.m */; };
-		B68FB0001F404753009C6583 /* SPDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FAFFF1F404753009C6583 /* SPDashboardViewController.swift */; };
-		DBE070C858AE89031521480F /* Pods_Seapull.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A3DA834688341F987CAE60 /* Pods_Seapull.framework */; };
+2EF30B4FB9D90D203421D35D /* Pods_SeapullUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A03720660AC9701CD22759 /* Pods_SeapullUITests.framework */; };
+325CB6E18048F5C6301A0573 /* Pods_SeapullTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0706B516DEB8CB4BA7302ED /* Pods_SeapullTests.framework */; };
+B68FAFC91F3FEE50009C6583 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B68FAFC81F3FEE50009C6583 /* main.m */; };
+B68FAFCC1F3FEE50009C6583 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B68FAFCB1F3FEE50009C6583 /* AppDelegate.m */; };
+B68FAFD21F3FEE50009C6583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68FAFD01F3FEE50009C6583 /* Main.storyboard */; };
+B68FAFD41F3FEE50009C6583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68FAFD31F3FEE50009C6583 /* Assets.xcassets */; };
+B68FAFD71F3FEE50009C6583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68FAFD51F3FEE50009C6583 /* LaunchScreen.storyboard */; };
+B68FAFE21F3FEE50009C6583 /* SeapullTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68FAFE11F3FEE50009C6583 /* SeapullTests.m */; };
+B68FAFED1F3FEE50009C6583 /* SeapullUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68FAFEC1F3FEE50009C6583 /* SeapullUITests.m */; };
+B68FB0001F404753009C6583 /* SPDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FAFFF1F404753009C6583 /* SPDashboardViewController.swift */; };
+B6D6E35F1F4160BA004EDCD4 /* UpdatePlaygroundBook.sh in Resources */ = {isa = PBXBuildFile; fileRef = B6D6E35D1F4160BA004EDCD4 /* UpdatePlaygroundBook.sh */; };
+DBE070C858AE89031521480F /* Pods_Seapull.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A3DA834688341F987CAE60 /* Pods_Seapull.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B68FAFDE1F3FEE50009C6583 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B68FAFBC1F3FEE50009C6583 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B68FAFC31F3FEE50009C6583;
-			remoteInfo = Seapull;
-		};
-		B68FAFE91F3FEE50009C6583 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B68FAFBC1F3FEE50009C6583 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B68FAFC31F3FEE50009C6583;
-			remoteInfo = Seapull;
-		};
+B68FAFDE1F3FEE50009C6583 /* PBXContainerItemProxy */ = {
+isa = PBXContainerItemProxy;
+containerPortal = B68FAFBC1F3FEE50009C6583 /* Project object */;
+proxyType = 1;
+remoteGlobalIDString = B68FAFC31F3FEE50009C6583;
+remoteInfo = Seapull;
+};
+B68FAFE91F3FEE50009C6583 /* PBXContainerItemProxy */ = {
+isa = PBXContainerItemProxy;
+containerPortal = B68FAFBC1F3FEE50009C6583 /* Project object */;
+proxyType = 1;
+remoteGlobalIDString = B68FAFC31F3FEE50009C6583;
+remoteInfo = Seapull;
+};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21FC6BA2B2FC6EE85C91EC8F /* Pods-SeapullTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeapullTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeapullTests/Pods-SeapullTests.release.xcconfig"; sourceTree = "<group>"; };
-		5C5F505645C20DE069899B3C /* Pods-SeapullUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeapullUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeapullUITests/Pods-SeapullUITests.release.xcconfig"; sourceTree = "<group>"; };
-		778A3732CBE2B7E25988C43C /* Pods-SeapullUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeapullUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeapullUITests/Pods-SeapullUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		87A3DA834688341F987CAE60 /* Pods_Seapull.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seapull.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89A03720660AC9701CD22759 /* Pods_SeapullUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeapullUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		941ABD5B152090BEF00C28B7 /* Pods-Seapull.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seapull.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seapull/Pods-Seapull.release.xcconfig"; sourceTree = "<group>"; };
-		A173DDA0A5B26A815E935712 /* Pods-SeapullTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeapullTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeapullTests/Pods-SeapullTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A3D9C89FA81B8953049EFC85 /* Pods-Seapull.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seapull.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seapull/Pods-Seapull.debug.xcconfig"; sourceTree = "<group>"; };
-		B0706B516DEB8CB4BA7302ED /* Pods_SeapullTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeapullTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B60D7B8C1F4068FB0001CC77 /* PlaygroundSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaygroundSupport.swift; path = ../../../../Downloads/playgroundBookLiveViews/final/BahamaAir/Carthage/Checkouts/PlaygroundSupportMock/PlaygroundSupport/PlaygroundSupport.swift; sourceTree = "<group>"; };
-		B68FAFC41F3FEE50009C6583 /* Seapull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seapull.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B68FAFC81F3FEE50009C6583 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B68FAFCA1F3FEE50009C6583 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B68FAFCB1F3FEE50009C6583 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B68FAFD11F3FEE50009C6583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B68FAFD31F3FEE50009C6583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B68FAFD61F3FEE50009C6583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B68FAFD81F3FEE50009C6583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B68FAFDD1F3FEE50009C6583 /* SeapullTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeapullTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B68FAFE11F3FEE50009C6583 /* SeapullTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeapullTests.m; sourceTree = "<group>"; };
-		B68FAFE31F3FEE50009C6583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B68FAFE81F3FEE50009C6583 /* SeapullUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeapullUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B68FAFEC1F3FEE50009C6583 /* SeapullUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeapullUITests.m; sourceTree = "<group>"; };
-		B68FAFEE1F3FEE50009C6583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B68FAFFB1F40467F009C6583 /* Seapull-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Seapull-Bridging-Header.h"; sourceTree = "<group>"; };
-		B68FAFFF1F404753009C6583 /* SPDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDashboardViewController.swift; sourceTree = "<group>"; };
+21FC6BA2B2FC6EE85C91EC8F /* Pods-SeapullTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeapullTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeapullTests/Pods-SeapullTests.release.xcconfig"; sourceTree = "<group>"; };
+5C5F505645C20DE069899B3C /* Pods-SeapullUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeapullUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeapullUITests/Pods-SeapullUITests.release.xcconfig"; sourceTree = "<group>"; };
+778A3732CBE2B7E25988C43C /* Pods-SeapullUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeapullUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeapullUITests/Pods-SeapullUITests.debug.xcconfig"; sourceTree = "<group>"; };
+87A3DA834688341F987CAE60 /* Pods_Seapull.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seapull.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+89A03720660AC9701CD22759 /* Pods_SeapullUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeapullUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+941ABD5B152090BEF00C28B7 /* Pods-Seapull.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seapull.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seapull/Pods-Seapull.release.xcconfig"; sourceTree = "<group>"; };
+A173DDA0A5B26A815E935712 /* Pods-SeapullTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeapullTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeapullTests/Pods-SeapullTests.debug.xcconfig"; sourceTree = "<group>"; };
+A3D9C89FA81B8953049EFC85 /* Pods-Seapull.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seapull.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seapull/Pods-Seapull.debug.xcconfig"; sourceTree = "<group>"; };
+B0706B516DEB8CB4BA7302ED /* Pods_SeapullTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeapullTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+B60D7B8C1F4068FB0001CC77 /* PlaygroundSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaygroundSupport.swift; path = ../../../../Downloads/playgroundBookLiveViews/final/BahamaAir/Carthage/Checkouts/PlaygroundSupportMock/PlaygroundSupport/PlaygroundSupport.swift; sourceTree = "<group>"; };
+B68FAFC41F3FEE50009C6583 /* Seapull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seapull.app; sourceTree = BUILT_PRODUCTS_DIR; };
+B68FAFC81F3FEE50009C6583 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+B68FAFCA1F3FEE50009C6583 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+B68FAFCB1F3FEE50009C6583 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+B68FAFD11F3FEE50009C6583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+B68FAFD31F3FEE50009C6583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+B68FAFD61F3FEE50009C6583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+B68FAFD81F3FEE50009C6583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+B68FAFDD1F3FEE50009C6583 /* SeapullTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeapullTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+B68FAFE11F3FEE50009C6583 /* SeapullTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeapullTests.m; sourceTree = "<group>"; };
+B68FAFE31F3FEE50009C6583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+B68FAFE81F3FEE50009C6583 /* SeapullUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeapullUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+B68FAFEC1F3FEE50009C6583 /* SeapullUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeapullUITests.m; sourceTree = "<group>"; };
+B68FAFEE1F3FEE50009C6583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+B68FAFFB1F40467F009C6583 /* Seapull-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Seapull-Bridging-Header.h"; sourceTree = "<group>"; };
+B68FAFFF1F404753009C6583 /* SPDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDashboardViewController.swift; sourceTree = "<group>"; };
+B6D6E35D1F4160BA004EDCD4 /* UpdatePlaygroundBook.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = UpdatePlaygroundBook.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B68FAFC11F3FEE50009C6583 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBE070C858AE89031521480F /* Pods_Seapull.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B68FAFDA1F3FEE50009C6583 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				325CB6E18048F5C6301A0573 /* Pods_SeapullTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B68FAFE51F3FEE50009C6583 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2EF30B4FB9D90D203421D35D /* Pods_SeapullUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+B68FAFC11F3FEE50009C6583 /* Frameworks */ = {
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = (
+DBE070C858AE89031521480F /* Pods_Seapull.framework in Frameworks */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+B68FAFDA1F3FEE50009C6583 /* Frameworks */ = {
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = (
+325CB6E18048F5C6301A0573 /* Pods_SeapullTests.framework in Frameworks */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+B68FAFE51F3FEE50009C6583 /* Frameworks */ = {
+isa = PBXFrameworksBuildPhase;
+buildActionMask = 2147483647;
+files = (
+2EF30B4FB9D90D203421D35D /* Pods_SeapullUITests.framework in Frameworks */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		055D0A6F8D70D83205E30751 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B60D7B8C1F4068FB0001CC77 /* PlaygroundSupport.swift */,
-				87A3DA834688341F987CAE60 /* Pods_Seapull.framework */,
-				B0706B516DEB8CB4BA7302ED /* Pods_SeapullTests.framework */,
-				89A03720660AC9701CD22759 /* Pods_SeapullUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		11DDD59C32EC61D09E9171AA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A3D9C89FA81B8953049EFC85 /* Pods-Seapull.debug.xcconfig */,
-				941ABD5B152090BEF00C28B7 /* Pods-Seapull.release.xcconfig */,
-				A173DDA0A5B26A815E935712 /* Pods-SeapullTests.debug.xcconfig */,
-				21FC6BA2B2FC6EE85C91EC8F /* Pods-SeapullTests.release.xcconfig */,
-				778A3732CBE2B7E25988C43C /* Pods-SeapullUITests.debug.xcconfig */,
-				5C5F505645C20DE069899B3C /* Pods-SeapullUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B68FAFBB1F3FEE50009C6583 = {
-			isa = PBXGroup;
-			children = (
-				B68FAFC61F3FEE50009C6583 /* Seapull */,
-				B68FAFE01F3FEE50009C6583 /* SeapullTests */,
-				B68FAFEB1F3FEE50009C6583 /* SeapullUITests */,
-				B68FAFC51F3FEE50009C6583 /* Products */,
-				11DDD59C32EC61D09E9171AA /* Pods */,
-				055D0A6F8D70D83205E30751 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		B68FAFC51F3FEE50009C6583 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B68FAFC41F3FEE50009C6583 /* Seapull.app */,
-				B68FAFDD1F3FEE50009C6583 /* SeapullTests.xctest */,
-				B68FAFE81F3FEE50009C6583 /* SeapullUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B68FAFC61F3FEE50009C6583 /* Seapull */ = {
-			isa = PBXGroup;
-			children = (
-				B68FB0021F40591C009C6583 /* Toolbox */,
-				B68FAFFE1F4046F3009C6583 /* Scenes */,
-				B68FAFCA1F3FEE50009C6583 /* AppDelegate.h */,
-				B68FAFCB1F3FEE50009C6583 /* AppDelegate.m */,
-				B68FAFD01F3FEE50009C6583 /* Main.storyboard */,
-				B68FAFD31F3FEE50009C6583 /* Assets.xcassets */,
-				B68FAFD51F3FEE50009C6583 /* LaunchScreen.storyboard */,
-				B68FAFD81F3FEE50009C6583 /* Info.plist */,
-				B68FAFC71F3FEE50009C6583 /* Supporting Files */,
-				B68FAFFB1F40467F009C6583 /* Seapull-Bridging-Header.h */,
-			);
-			path = Seapull;
-			sourceTree = "<group>";
-		};
-		B68FAFC71F3FEE50009C6583 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B68FAFC81F3FEE50009C6583 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B68FAFE01F3FEE50009C6583 /* SeapullTests */ = {
-			isa = PBXGroup;
-			children = (
-				B68FAFE11F3FEE50009C6583 /* SeapullTests.m */,
-				B68FAFE31F3FEE50009C6583 /* Info.plist */,
-			);
-			path = SeapullTests;
-			sourceTree = "<group>";
-		};
-		B68FAFEB1F3FEE50009C6583 /* SeapullUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B68FAFEC1F3FEE50009C6583 /* SeapullUITests.m */,
-				B68FAFEE1F3FEE50009C6583 /* Info.plist */,
-			);
-			path = SeapullUITests;
-			sourceTree = "<group>";
-		};
-		B68FAFFE1F4046F3009C6583 /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				B68FAFFF1F404753009C6583 /* SPDashboardViewController.swift */,
-			);
-			name = Scenes;
-			sourceTree = "<group>";
-		};
-		B68FB0021F40591C009C6583 /* Toolbox */ = {
-			isa = PBXGroup;
-			children = (
-				B68FB0031F405947009C6583 /* UIKit */,
-			);
-			name = Toolbox;
-			sourceTree = "<group>";
-		};
-		B68FB0031F405947009C6583 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				B68FB0041F405957009C6583 /* ViewController */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		B68FB0041F405957009C6583 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
+055D0A6F8D70D83205E30751 /* Frameworks */ = {
+isa = PBXGroup;
+children = (
+B60D7B8C1F4068FB0001CC77 /* PlaygroundSupport.swift */,
+87A3DA834688341F987CAE60 /* Pods_Seapull.framework */,
+B0706B516DEB8CB4BA7302ED /* Pods_SeapullTests.framework */,
+89A03720660AC9701CD22759 /* Pods_SeapullUITests.framework */,
+);
+name = Frameworks;
+sourceTree = "<group>";
+};
+11DDD59C32EC61D09E9171AA /* Pods */ = {
+isa = PBXGroup;
+children = (
+A3D9C89FA81B8953049EFC85 /* Pods-Seapull.debug.xcconfig */,
+941ABD5B152090BEF00C28B7 /* Pods-Seapull.release.xcconfig */,
+A173DDA0A5B26A815E935712 /* Pods-SeapullTests.debug.xcconfig */,
+21FC6BA2B2FC6EE85C91EC8F /* Pods-SeapullTests.release.xcconfig */,
+778A3732CBE2B7E25988C43C /* Pods-SeapullUITests.debug.xcconfig */,
+5C5F505645C20DE069899B3C /* Pods-SeapullUITests.release.xcconfig */,
+);
+name = Pods;
+sourceTree = "<group>";
+};
+B68FAFBB1F3FEE50009C6583 = {
+isa = PBXGroup;
+children = (
+B6D6E35E1F4160BA004EDCD4 /* Scripts */,
+B68FAFC61F3FEE50009C6583 /* Seapull */,
+B68FAFE01F3FEE50009C6583 /* SeapullTests */,
+B68FAFEB1F3FEE50009C6583 /* SeapullUITests */,
+B68FAFC51F3FEE50009C6583 /* Products */,
+11DDD59C32EC61D09E9171AA /* Pods */,
+055D0A6F8D70D83205E30751 /* Frameworks */,
+);
+sourceTree = "<group>";
+};
+B68FAFC51F3FEE50009C6583 /* Products */ = {
+isa = PBXGroup;
+children = (
+B68FAFC41F3FEE50009C6583 /* Seapull.app */,
+B68FAFDD1F3FEE50009C6583 /* SeapullTests.xctest */,
+B68FAFE81F3FEE50009C6583 /* SeapullUITests.xctest */,
+);
+name = Products;
+sourceTree = "<group>";
+};
+B68FAFC61F3FEE50009C6583 /* Seapull */ = {
+isa = PBXGroup;
+children = (
+B68FB0021F40591C009C6583 /* Toolbox */,
+B68FAFFE1F4046F3009C6583 /* Scenes */,
+B68FAFCA1F3FEE50009C6583 /* AppDelegate.h */,
+B68FAFCB1F3FEE50009C6583 /* AppDelegate.m */,
+B68FAFD01F3FEE50009C6583 /* Main.storyboard */,
+B68FAFD31F3FEE50009C6583 /* Assets.xcassets */,
+B68FAFD51F3FEE50009C6583 /* LaunchScreen.storyboard */,
+B68FAFD81F3FEE50009C6583 /* Info.plist */,
+B68FAFC71F3FEE50009C6583 /* Supporting Files */,
+B68FAFFB1F40467F009C6583 /* Seapull-Bridging-Header.h */,
+);
+path = Seapull;
+sourceTree = "<group>";
+};
+B68FAFC71F3FEE50009C6583 /* Supporting Files */ = {
+isa = PBXGroup;
+children = (
+B68FAFC81F3FEE50009C6583 /* main.m */,
+);
+name = "Supporting Files";
+sourceTree = "<group>";
+};
+B68FAFE01F3FEE50009C6583 /* SeapullTests */ = {
+isa = PBXGroup;
+children = (
+B68FAFE11F3FEE50009C6583 /* SeapullTests.m */,
+B68FAFE31F3FEE50009C6583 /* Info.plist */,
+);
+path = SeapullTests;
+sourceTree = "<group>";
+};
+B68FAFEB1F3FEE50009C6583 /* SeapullUITests */ = {
+isa = PBXGroup;
+children = (
+B68FAFEC1F3FEE50009C6583 /* SeapullUITests.m */,
+B68FAFEE1F3FEE50009C6583 /* Info.plist */,
+);
+path = SeapullUITests;
+sourceTree = "<group>";
+};
+B68FAFFE1F4046F3009C6583 /* Scenes */ = {
+isa = PBXGroup;
+children = (
+B68FAFFF1F404753009C6583 /* SPDashboardViewController.swift */,
+);
+name = Scenes;
+sourceTree = "<group>";
+};
+B68FB0021F40591C009C6583 /* Toolbox */ = {
+isa = PBXGroup;
+children = (
+B68FB0031F405947009C6583 /* UIKit */,
+);
+name = Toolbox;
+sourceTree = "<group>";
+};
+B68FB0031F405947009C6583 /* UIKit */ = {
+isa = PBXGroup;
+children = (
+B68FB0041F405957009C6583 /* ViewController */,
+);
+name = UIKit;
+sourceTree = "<group>";
+};
+B68FB0041F405957009C6583 /* ViewController */ = {
+isa = PBXGroup;
+children = (
+);
+name = ViewController;
+sourceTree = "<group>";
+};
+B6D6E35E1F4160BA004EDCD4 /* Scripts */ = {
+isa = PBXGroup;
+children = (
+B6D6E35D1F4160BA004EDCD4 /* UpdatePlaygroundBook.sh */,
+);
+path = Scripts;
+sourceTree = "<group>";
+};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B68FAFC31F3FEE50009C6583 /* Seapull */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B68FAFF11F3FEE50009C6583 /* Build configuration list for PBXNativeTarget "Seapull" */;
-			buildPhases = (
-				60C11B9BE2E0B64C083907F7 /* [CP] Check Pods Manifest.lock */,
-				B68FAFC01F3FEE50009C6583 /* Sources */,
-				B68FAFC11F3FEE50009C6583 /* Frameworks */,
-				B68FAFC21F3FEE50009C6583 /* Resources */,
-				03A9FB6B1CE2BBAC8140A752 /* [CP] Embed Pods Frameworks */,
-				C9760721E8404AF685DF6C79 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Seapull;
-			productName = Seapull;
-			productReference = B68FAFC41F3FEE50009C6583 /* Seapull.app */;
-			productType = "com.apple.product-type.application";
-		};
-		B68FAFDC1F3FEE50009C6583 /* SeapullTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B68FAFF41F3FEE50009C6583 /* Build configuration list for PBXNativeTarget "SeapullTests" */;
-			buildPhases = (
-				D490D9FC2A162D246578DF5A /* [CP] Check Pods Manifest.lock */,
-				B68FAFD91F3FEE50009C6583 /* Sources */,
-				B68FAFDA1F3FEE50009C6583 /* Frameworks */,
-				B68FAFDB1F3FEE50009C6583 /* Resources */,
-				D47D5083268E91546E83773E /* [CP] Embed Pods Frameworks */,
-				4AD847F203306C8BB4D86D9D /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B68FAFDF1F3FEE50009C6583 /* PBXTargetDependency */,
-			);
-			name = SeapullTests;
-			productName = SeapullTests;
-			productReference = B68FAFDD1F3FEE50009C6583 /* SeapullTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B68FAFE71F3FEE50009C6583 /* SeapullUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B68FAFF71F3FEE50009C6583 /* Build configuration list for PBXNativeTarget "SeapullUITests" */;
-			buildPhases = (
-				71977E5349C1810505185BA0 /* [CP] Check Pods Manifest.lock */,
-				B68FAFE41F3FEE50009C6583 /* Sources */,
-				B68FAFE51F3FEE50009C6583 /* Frameworks */,
-				B68FAFE61F3FEE50009C6583 /* Resources */,
-				41A639E6FAC1DDC7C7AAC1B2 /* [CP] Embed Pods Frameworks */,
-				8DCAF1EB9010C9B9CFA25EB8 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B68FAFEA1F3FEE50009C6583 /* PBXTargetDependency */,
-			);
-			name = SeapullUITests;
-			productName = SeapullUITests;
-			productReference = B68FAFE81F3FEE50009C6583 /* SeapullUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
+B68FAFC31F3FEE50009C6583 /* Seapull */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = B68FAFF11F3FEE50009C6583 /* Build configuration list for PBXNativeTarget "Seapull" */;
+buildPhases = (
+60C11B9BE2E0B64C083907F7 /* [CP] Check Pods Manifest.lock */,
+B68FAFC01F3FEE50009C6583 /* Sources */,
+B68FAFC11F3FEE50009C6583 /* Frameworks */,
+B68FAFC21F3FEE50009C6583 /* Resources */,
+03A9FB6B1CE2BBAC8140A752 /* [CP] Embed Pods Frameworks */,
+C9760721E8404AF685DF6C79 /* [CP] Copy Pods Resources */,
+B68FB0011F404800009C6583 /* ShellScript */,
+);
+buildRules = (
+);
+dependencies = (
+);
+name = Seapull;
+productName = Seapull;
+productReference = B68FAFC41F3FEE50009C6583 /* Seapull.app */;
+productType = "com.apple.product-type.application";
+};
+B68FAFDC1F3FEE50009C6583 /* SeapullTests */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = B68FAFF41F3FEE50009C6583 /* Build configuration list for PBXNativeTarget "SeapullTests" */;
+buildPhases = (
+D490D9FC2A162D246578DF5A /* [CP] Check Pods Manifest.lock */,
+B68FAFD91F3FEE50009C6583 /* Sources */,
+B68FAFDA1F3FEE50009C6583 /* Frameworks */,
+B68FAFDB1F3FEE50009C6583 /* Resources */,
+D47D5083268E91546E83773E /* [CP] Embed Pods Frameworks */,
+4AD847F203306C8BB4D86D9D /* [CP] Copy Pods Resources */,
+);
+buildRules = (
+);
+dependencies = (
+B68FAFDF1F3FEE50009C6583 /* PBXTargetDependency */,
+);
+name = SeapullTests;
+productName = SeapullTests;
+productReference = B68FAFDD1F3FEE50009C6583 /* SeapullTests.xctest */;
+productType = "com.apple.product-type.bundle.unit-test";
+};
+B68FAFE71F3FEE50009C6583 /* SeapullUITests */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = B68FAFF71F3FEE50009C6583 /* Build configuration list for PBXNativeTarget "SeapullUITests" */;
+buildPhases = (
+71977E5349C1810505185BA0 /* [CP] Check Pods Manifest.lock */,
+B68FAFE41F3FEE50009C6583 /* Sources */,
+B68FAFE51F3FEE50009C6583 /* Frameworks */,
+B68FAFE61F3FEE50009C6583 /* Resources */,
+41A639E6FAC1DDC7C7AAC1B2 /* [CP] Embed Pods Frameworks */,
+8DCAF1EB9010C9B9CFA25EB8 /* [CP] Copy Pods Resources */,
+);
+buildRules = (
+);
+dependencies = (
+B68FAFEA1F3FEE50009C6583 /* PBXTargetDependency */,
+);
+name = SeapullUITests;
+productName = SeapullUITests;
+productReference = B68FAFE81F3FEE50009C6583 /* SeapullUITests.xctest */;
+productType = "com.apple.product-type.bundle.ui-testing";
+};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B68FAFBC1F3FEE50009C6583 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = RamblingTree;
-				TargetAttributes = {
-					B68FAFC31F3FEE50009C6583 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 3C9462VU8S;
-						LastSwiftMigration = 0830;
-						ProvisioningStyle = Automatic;
-					};
-					B68FAFDC1F3FEE50009C6583 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 3C9462VU8S;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B68FAFC31F3FEE50009C6583;
-					};
-					B68FAFE71F3FEE50009C6583 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 3C9462VU8S;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B68FAFC31F3FEE50009C6583;
-					};
-				};
-			};
-			buildConfigurationList = B68FAFBF1F3FEE50009C6583 /* Build configuration list for PBXProject "Seapull" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = B68FAFBB1F3FEE50009C6583;
-			productRefGroup = B68FAFC51F3FEE50009C6583 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				B68FAFC31F3FEE50009C6583 /* Seapull */,
-				B68FAFDC1F3FEE50009C6583 /* SeapullTests */,
-				B68FAFE71F3FEE50009C6583 /* SeapullUITests */,
-			);
-		};
+B68FAFBC1F3FEE50009C6583 /* Project object */ = {
+isa = PBXProject;
+attributes = {
+LastUpgradeCheck = 0830;
+ORGANIZATIONNAME = RamblingTree;
+TargetAttributes = {
+B68FAFC31F3FEE50009C6583 = {
+CreatedOnToolsVersion = 8.3.3;
+DevelopmentTeam = 3C9462VU8S;
+LastSwiftMigration = 0830;
+ProvisioningStyle = Automatic;
+};
+B68FAFDC1F3FEE50009C6583 = {
+CreatedOnToolsVersion = 8.3.3;
+DevelopmentTeam = 3C9462VU8S;
+ProvisioningStyle = Automatic;
+TestTargetID = B68FAFC31F3FEE50009C6583;
+};
+B68FAFE71F3FEE50009C6583 = {
+CreatedOnToolsVersion = 8.3.3;
+DevelopmentTeam = 3C9462VU8S;
+ProvisioningStyle = Automatic;
+TestTargetID = B68FAFC31F3FEE50009C6583;
+};
+};
+};
+buildConfigurationList = B68FAFBF1F3FEE50009C6583 /* Build configuration list for PBXProject "Seapull" */;
+compatibilityVersion = "Xcode 3.2";
+developmentRegion = English;
+hasScannedForEncodings = 0;
+knownRegions = (
+en,
+Base,
+);
+mainGroup = B68FAFBB1F3FEE50009C6583;
+productRefGroup = B68FAFC51F3FEE50009C6583 /* Products */;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+B68FAFC31F3FEE50009C6583 /* Seapull */,
+B68FAFDC1F3FEE50009C6583 /* SeapullTests */,
+B68FAFE71F3FEE50009C6583 /* SeapullUITests */,
+);
+};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B68FAFC21F3FEE50009C6583 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B68FAFD71F3FEE50009C6583 /* LaunchScreen.storyboard in Resources */,
-				B68FAFD41F3FEE50009C6583 /* Assets.xcassets in Resources */,
-				B68FAFD21F3FEE50009C6583 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B68FAFDB1F3FEE50009C6583 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B68FAFE61F3FEE50009C6583 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+B68FAFC21F3FEE50009C6583 /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+B68FAFD71F3FEE50009C6583 /* LaunchScreen.storyboard in Resources */,
+B68FAFD41F3FEE50009C6583 /* Assets.xcassets in Resources */,
+B68FAFD21F3FEE50009C6583 /* Main.storyboard in Resources */,
+B6D6E35F1F4160BA004EDCD4 /* UpdatePlaygroundBook.sh in Resources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+B68FAFDB1F3FEE50009C6583 /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+B68FAFE61F3FEE50009C6583 /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		03A9FB6B1CE2BBAC8140A752 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seapull/Pods-Seapull-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		41A639E6FAC1DDC7C7AAC1B2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeapullUITests/Pods-SeapullUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4AD847F203306C8BB4D86D9D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeapullTests/Pods-SeapullTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		60C11B9BE2E0B64C083907F7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		71977E5349C1810505185BA0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		8DCAF1EB9010C9B9CFA25EB8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeapullUITests/Pods-SeapullUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C9760721E8404AF685DF6C79 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seapull/Pods-Seapull-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D47D5083268E91546E83773E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeapullTests/Pods-SeapullTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D490D9FC2A162D246578DF5A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
+03A9FB6B1CE2BBAC8140A752 /* [CP] Embed Pods Frameworks */ = {
+isa = PBXShellScriptBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+inputPaths = (
+);
+name = "[CP] Embed Pods Frameworks";
+outputPaths = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+shellPath = /bin/sh;
+shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seapull/Pods-Seapull-frameworks.sh\"\n";
+showEnvVarsInLog = 0;
+};
+41A639E6FAC1DDC7C7AAC1B2 /* [CP] Embed Pods Frameworks */ = {
+isa = PBXShellScriptBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+inputPaths = (
+);
+name = "[CP] Embed Pods Frameworks";
+outputPaths = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+shellPath = /bin/sh;
+shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeapullUITests/Pods-SeapullUITests-frameworks.sh\"\n";
+showEnvVarsInLog = 0;
+};
+4AD847F203306C8BB4D86D9D /* [CP] Copy Pods Resources */ = {
+isa = PBXShellScriptBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+inputPaths = (
+);
+name = "[CP] Copy Pods Resources";
+outputPaths = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+shellPath = /bin/sh;
+shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeapullTests/Pods-SeapullTests-resources.sh\"\n";
+showEnvVarsInLog = 0;
+};
+60C11B9BE2E0B64C083907F7 /* [CP] Check Pods Manifest.lock */ = {
+isa = PBXShellScriptBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+inputPaths = (
+);
+name = "[CP] Check Pods Manifest.lock";
+outputPaths = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+shellPath = /bin/sh;
+shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+showEnvVarsInLog = 0;
+};
+71977E5349C1810505185BA0 /* [CP] Check Pods Manifest.lock */ = {
+isa = PBXShellScriptBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+inputPaths = (
+);
+name = "[CP] Check Pods Manifest.lock";
+outputPaths = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+shellPath = /bin/sh;
+shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+showEnvVarsInLog = 0;
+};
+8DCAF1EB9010C9B9CFA25EB8 /* [CP] Copy Pods Resources */ = {
+isa = PBXShellScriptBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+inputPaths = (
+);
+name = "[CP] Copy Pods Resources";
+outputPaths = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+shellPath = /bin/sh;
+shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeapullUITests/Pods-SeapullUITests-resources.sh\"\n";
+showEnvVarsInLog = 0;
+};
+B68FB0011F404800009C6583 /* ShellScript */ = {
+isa = PBXShellScriptBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+inputPaths = (
+);
+outputPaths = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+shellPath = /bin/sh;
+shellScript = ./Scripts/UpdatePlaygroundBook.sh;
+};
+C9760721E8404AF685DF6C79 /* [CP] Copy Pods Resources */ = {
+isa = PBXShellScriptBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+inputPaths = (
+);
+name = "[CP] Copy Pods Resources";
+outputPaths = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+shellPath = /bin/sh;
+shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seapull/Pods-Seapull-resources.sh\"\n";
+showEnvVarsInLog = 0;
+};
+D47D5083268E91546E83773E /* [CP] Embed Pods Frameworks */ = {
+isa = PBXShellScriptBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+inputPaths = (
+);
+name = "[CP] Embed Pods Frameworks";
+outputPaths = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+shellPath = /bin/sh;
+shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeapullTests/Pods-SeapullTests-frameworks.sh\"\n";
+showEnvVarsInLog = 0;
+};
+D490D9FC2A162D246578DF5A /* [CP] Check Pods Manifest.lock */ = {
+isa = PBXShellScriptBuildPhase;
+buildActionMask = 2147483647;
+files = (
+);
+inputPaths = (
+);
+name = "[CP] Check Pods Manifest.lock";
+outputPaths = (
+);
+runOnlyForDeploymentPostprocessing = 0;
+shellPath = /bin/sh;
+shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+showEnvVarsInLog = 0;
+};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B68FAFC01F3FEE50009C6583 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B68FAFCC1F3FEE50009C6583 /* AppDelegate.m in Sources */,
-				B68FAFC91F3FEE50009C6583 /* main.m in Sources */,
-				B68FB0001F404753009C6583 /* SPDashboardViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B68FAFD91F3FEE50009C6583 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B68FAFE21F3FEE50009C6583 /* SeapullTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B68FAFE41F3FEE50009C6583 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B68FAFED1F3FEE50009C6583 /* SeapullUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+B68FAFC01F3FEE50009C6583 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+B68FAFCC1F3FEE50009C6583 /* AppDelegate.m in Sources */,
+B68FAFC91F3FEE50009C6583 /* main.m in Sources */,
+B68FB0001F404753009C6583 /* SPDashboardViewController.swift in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+B68FAFD91F3FEE50009C6583 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+B68FAFE21F3FEE50009C6583 /* SeapullTests.m in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+B68FAFE41F3FEE50009C6583 /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+B68FAFED1F3FEE50009C6583 /* SeapullUITests.m in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B68FAFDF1F3FEE50009C6583 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B68FAFC31F3FEE50009C6583 /* Seapull */;
-			targetProxy = B68FAFDE1F3FEE50009C6583 /* PBXContainerItemProxy */;
-		};
-		B68FAFEA1F3FEE50009C6583 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B68FAFC31F3FEE50009C6583 /* Seapull */;
-			targetProxy = B68FAFE91F3FEE50009C6583 /* PBXContainerItemProxy */;
-		};
+B68FAFDF1F3FEE50009C6583 /* PBXTargetDependency */ = {
+isa = PBXTargetDependency;
+target = B68FAFC31F3FEE50009C6583 /* Seapull */;
+targetProxy = B68FAFDE1F3FEE50009C6583 /* PBXContainerItemProxy */;
+};
+B68FAFEA1F3FEE50009C6583 /* PBXTargetDependency */ = {
+isa = PBXTargetDependency;
+target = B68FAFC31F3FEE50009C6583 /* Seapull */;
+targetProxy = B68FAFE91F3FEE50009C6583 /* PBXContainerItemProxy */;
+};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B68FAFD01F3FEE50009C6583 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B68FAFD11F3FEE50009C6583 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B68FAFD51F3FEE50009C6583 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B68FAFD61F3FEE50009C6583 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
+B68FAFD01F3FEE50009C6583 /* Main.storyboard */ = {
+isa = PBXVariantGroup;
+children = (
+B68FAFD11F3FEE50009C6583 /* Base */,
+);
+name = Main.storyboard;
+sourceTree = "<group>";
+};
+B68FAFD51F3FEE50009C6583 /* LaunchScreen.storyboard */ = {
+isa = PBXVariantGroup;
+children = (
+B68FAFD61F3FEE50009C6583 /* Base */,
+);
+name = LaunchScreen.storyboard;
+sourceTree = "<group>";
+};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B68FAFEF1F3FEE50009C6583 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_MODULE_NAME = Seapull;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B68FAFF01F3FEE50009C6583 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_MODULE_NAME = Seapull;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B68FAFF21F3FEE50009C6583 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3D9C89FA81B8953049EFC85 /* Pods-Seapull.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 3C9462VU8S;
-				INFOPLIST_FILE = Seapull/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RamblingTree.SeaPull.Seapull;
-				PRODUCT_MODULE_NAME = Seapull;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Seapull/Seapull-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		B68FAFF31F3FEE50009C6583 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 941ABD5B152090BEF00C28B7 /* Pods-Seapull.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 3C9462VU8S;
-				INFOPLIST_FILE = Seapull/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RamblingTree.SeaPull.Seapull;
-				PRODUCT_MODULE_NAME = Seapull;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Seapull/Seapull-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		B68FAFF51F3FEE50009C6583 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A173DDA0A5B26A815E935712 /* Pods-SeapullTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 3C9462VU8S;
-				INFOPLIST_FILE = SeapullTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RamblingTree.SeaPull.SeapullTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seapull.app/Seapull";
-			};
-			name = Debug;
-		};
-		B68FAFF61F3FEE50009C6583 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21FC6BA2B2FC6EE85C91EC8F /* Pods-SeapullTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 3C9462VU8S;
-				INFOPLIST_FILE = SeapullTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RamblingTree.SeaPull.SeapullTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seapull.app/Seapull";
-			};
-			name = Release;
-		};
-		B68FAFF81F3FEE50009C6583 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 778A3732CBE2B7E25988C43C /* Pods-SeapullUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 3C9462VU8S;
-				INFOPLIST_FILE = SeapullUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RamblingTree.SeaPull.SeapullUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Seapull;
-			};
-			name = Debug;
-		};
-		B68FAFF91F3FEE50009C6583 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C5F505645C20DE069899B3C /* Pods-SeapullUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 3C9462VU8S;
-				INFOPLIST_FILE = SeapullUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RamblingTree.SeaPull.SeapullUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Seapull;
-			};
-			name = Release;
-		};
+B68FAFEF1F3FEE50009C6583 /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+CLANG_CXX_LIBRARY = "libc++";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNREACHABLE_CODE = YES;
+CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = dwarf;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+ENABLE_TESTABILITY = YES;
+GCC_C_LANGUAGE_STANDARD = gnu99;
+GCC_DYNAMIC_NO_PIC = NO;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_OPTIMIZATION_LEVEL = 0;
+GCC_PREPROCESSOR_DEFINITIONS = (
+"DEBUG=1",
+"$(inherited)",
+);
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+MTL_ENABLE_DEBUG_INFO = YES;
+ONLY_ACTIVE_ARCH = YES;
+PRODUCT_MODULE_NAME = Seapull;
+SDKROOT = iphoneos;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Debug;
+};
+B68FAFF01F3FEE50009C6583 /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+CLANG_CXX_LIBRARY = "libc++";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNREACHABLE_CODE = YES;
+CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+ENABLE_NS_ASSERTIONS = NO;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+GCC_C_LANGUAGE_STANDARD = gnu99;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+MTL_ENABLE_DEBUG_INFO = NO;
+PRODUCT_MODULE_NAME = Seapull;
+SDKROOT = iphoneos;
+TARGETED_DEVICE_FAMILY = "1,2";
+VALIDATE_PRODUCT = YES;
+};
+name = Release;
+};
+B68FAFF21F3FEE50009C6583 /* Debug */ = {
+isa = XCBuildConfiguration;
+baseConfigurationReference = A3D9C89FA81B8953049EFC85 /* Pods-Seapull.debug.xcconfig */;
+buildSettings = {
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CLANG_ENABLE_MODULES = YES;
+DEVELOPMENT_TEAM = 3C9462VU8S;
+INFOPLIST_FILE = Seapull/Info.plist;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.RamblingTree.SeaPull.Seapull;
+PRODUCT_MODULE_NAME = Seapull;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_OBJC_BRIDGING_HEADER = "Seapull/Seapull-Bridging-Header.h";
+SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+SWIFT_VERSION = 3.0;
+};
+name = Debug;
+};
+B68FAFF31F3FEE50009C6583 /* Release */ = {
+isa = XCBuildConfiguration;
+baseConfigurationReference = 941ABD5B152090BEF00C28B7 /* Pods-Seapull.release.xcconfig */;
+buildSettings = {
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CLANG_ENABLE_MODULES = YES;
+DEVELOPMENT_TEAM = 3C9462VU8S;
+INFOPLIST_FILE = Seapull/Info.plist;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.RamblingTree.SeaPull.Seapull;
+PRODUCT_MODULE_NAME = Seapull;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_OBJC_BRIDGING_HEADER = "Seapull/Seapull-Bridging-Header.h";
+SWIFT_VERSION = 3.0;
+};
+name = Release;
+};
+B68FAFF51F3FEE50009C6583 /* Debug */ = {
+isa = XCBuildConfiguration;
+baseConfigurationReference = A173DDA0A5B26A815E935712 /* Pods-SeapullTests.debug.xcconfig */;
+buildSettings = {
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+BUNDLE_LOADER = "$(TEST_HOST)";
+DEVELOPMENT_TEAM = 3C9462VU8S;
+INFOPLIST_FILE = SeapullTests/Info.plist;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.RamblingTree.SeaPull.SeapullTests;
+PRODUCT_NAME = "$(TARGET_NAME)";
+TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seapull.app/Seapull";
+};
+name = Debug;
+};
+B68FAFF61F3FEE50009C6583 /* Release */ = {
+isa = XCBuildConfiguration;
+baseConfigurationReference = 21FC6BA2B2FC6EE85C91EC8F /* Pods-SeapullTests.release.xcconfig */;
+buildSettings = {
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+BUNDLE_LOADER = "$(TEST_HOST)";
+DEVELOPMENT_TEAM = 3C9462VU8S;
+INFOPLIST_FILE = SeapullTests/Info.plist;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.RamblingTree.SeaPull.SeapullTests;
+PRODUCT_NAME = "$(TARGET_NAME)";
+TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seapull.app/Seapull";
+};
+name = Release;
+};
+B68FAFF81F3FEE50009C6583 /* Debug */ = {
+isa = XCBuildConfiguration;
+baseConfigurationReference = 778A3732CBE2B7E25988C43C /* Pods-SeapullUITests.debug.xcconfig */;
+buildSettings = {
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+DEVELOPMENT_TEAM = 3C9462VU8S;
+INFOPLIST_FILE = SeapullUITests/Info.plist;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.RamblingTree.SeaPull.SeapullUITests;
+PRODUCT_NAME = "$(TARGET_NAME)";
+TEST_TARGET_NAME = Seapull;
+};
+name = Debug;
+};
+B68FAFF91F3FEE50009C6583 /* Release */ = {
+isa = XCBuildConfiguration;
+baseConfigurationReference = 5C5F505645C20DE069899B3C /* Pods-SeapullUITests.release.xcconfig */;
+buildSettings = {
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+DEVELOPMENT_TEAM = 3C9462VU8S;
+INFOPLIST_FILE = SeapullUITests/Info.plist;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.RamblingTree.SeaPull.SeapullUITests;
+PRODUCT_NAME = "$(TARGET_NAME)";
+TEST_TARGET_NAME = Seapull;
+};
+name = Release;
+};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B68FAFBF1F3FEE50009C6583 /* Build configuration list for PBXProject "Seapull" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B68FAFEF1F3FEE50009C6583 /* Debug */,
-				B68FAFF01F3FEE50009C6583 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B68FAFF11F3FEE50009C6583 /* Build configuration list for PBXNativeTarget "Seapull" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B68FAFF21F3FEE50009C6583 /* Debug */,
-				B68FAFF31F3FEE50009C6583 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B68FAFF41F3FEE50009C6583 /* Build configuration list for PBXNativeTarget "SeapullTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B68FAFF51F3FEE50009C6583 /* Debug */,
-				B68FAFF61F3FEE50009C6583 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B68FAFF71F3FEE50009C6583 /* Build configuration list for PBXNativeTarget "SeapullUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B68FAFF81F3FEE50009C6583 /* Debug */,
-				B68FAFF91F3FEE50009C6583 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
+B68FAFBF1F3FEE50009C6583 /* Build configuration list for PBXProject "Seapull" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+B68FAFEF1F3FEE50009C6583 /* Debug */,
+B68FAFF01F3FEE50009C6583 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+B68FAFF11F3FEE50009C6583 /* Build configuration list for PBXNativeTarget "Seapull" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+B68FAFF21F3FEE50009C6583 /* Debug */,
+B68FAFF31F3FEE50009C6583 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+B68FAFF41F3FEE50009C6583 /* Build configuration list for PBXNativeTarget "SeapullTests" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+B68FAFF51F3FEE50009C6583 /* Debug */,
+B68FAFF61F3FEE50009C6583 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+B68FAFF71F3FEE50009C6583 /* Build configuration list for PBXNativeTarget "SeapullUITests" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+B68FAFF81F3FEE50009C6583 /* Debug */,
+B68FAFF91F3FEE50009C6583 /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
 /* End XCConfigurationList section */
-	};
-	rootObject = B68FAFBC1F3FEE50009C6583 /* Project object */;
+};
+rootObject = B68FAFBC1F3FEE50009C6583 /* Project object */;
 }
