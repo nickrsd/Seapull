@@ -1,5 +1,4 @@
-#####
-# OS X temporary files that should never be committed
+S X temporary files that should never be committed
 .DS_Store
 *.swp
 *.lock
@@ -67,3 +66,4 @@ Builds/
 !default.mode1v3
 !default.mode2v3
 !default.perspectivev3
+
